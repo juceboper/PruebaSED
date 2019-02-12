@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Entidades" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Entidades" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="ArrayOfEntTipoDocumento">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="EntTipoDocumento" nillable="true" type="tns:EntTipoDocumento" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfEntTipoDocumento" nillable="true" type="tns:ArrayOfEntTipoDocumento" />
+  <xs:complexType name="EntTipoDocumento">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="IdTipoDocumento" type="xs:int" />
+      <xs:element minOccurs="0" name="TipoDocumento" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EntTipoDocumento" nillable="true" type="tns:EntTipoDocumento" />
+  <xs:complexType name="EntContactenos">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Apellidos" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Asunto" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IdTipoDocumento" type="xs:int" />
+      <xs:element minOccurs="0" name="Mensaje" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Nombres" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Telefono" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="EntContactenos" nillable="true" type="tns:EntContactenos" />
+</xs:schema>

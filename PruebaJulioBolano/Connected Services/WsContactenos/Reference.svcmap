@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="2a97dcf4-b01b-4378-ac42-23efd0692261" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:49215/Servicios/ServicioContactenos.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="ServicioContactenos.xsd" MetadataType="Schema" ID="f1100e07-5184-411b-a321-c5a68decdc6a" SourceId="1" SourceUrl="http://localhost:49215/Servicios/ServicioContactenos.svc?xsd=xsd1" />
+    <MetadataFile FileName="ServicioContactenos1.xsd" MetadataType="Schema" ID="033e9513-da4c-45be-b52b-c972ccec1dc8" SourceId="1" SourceUrl="http://localhost:49215/Servicios/ServicioContactenos.svc?xsd=xsd2" />
+    <MetadataFile FileName="ServicioContactenos2.xsd" MetadataType="Schema" ID="ccd309a4-dfe3-43ae-9ac1-5e902878ed49" SourceId="1" SourceUrl="http://localhost:49215/Servicios/ServicioContactenos.svc?xsd=xsd0" />
+    <MetadataFile FileName="ServicioContactenos.disco" MetadataType="Disco" ID="029e744b-ef76-4361-b3bb-28ad3a146788" SourceId="1" SourceUrl="http://localhost:49215/Servicios/ServicioContactenos.svc?disco" />
+    <MetadataFile FileName="ServicioContactenos.wsdl" MetadataType="Wsdl" ID="404849fd-1ae9-49b9-bce8-18ea4efff3ce" SourceId="1" SourceUrl="http://localhost:49215/Servicios/ServicioContactenos.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
